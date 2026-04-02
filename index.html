@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | tldus4076-cell</title>
+  <meta name="description" content="tldus4076-cell portfolio website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <a class="brand" href="#top">tldus4076-cell</a>
+      <div class="nav-links">
+        <a href="#about">소개</a>
+        <a href="#projects">프로젝트</a>
+        <a href="#contact">연락처</a>
+      </div>
+    </nav>
+
+    <div class="hero-content">
+      <p class="eyebrow">PORTFOLIO</p>
+      <h1>만드는 사람의 작업을
+        <span>명확하게 보여주는 포트폴리오</span>
+      </h1>
+      <p class="hero-text">
+        안녕하세요. 배우고 만들고 개선하는 과정을 좋아하는 개발자입니다.
+        이 사이트는 GitHub Pages로 배포되는 개인 포트폴리오이며, 소개와 프로젝트를 한눈에 볼 수 있도록 구성했습니다.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#projects">프로젝트 보기</a>
+        <a class="button secondary" href="#contact">연락하기</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT</p>
+        <h2>소개</h2>
+      </div>
+      <div class="about-grid">
+        <article class="card">
+          <h3>저는 이런 사람입니다</h3>
+          <p>
+            새로운 기술을 빠르게 익히고, 작게 시작해서 꾸준히 개선하는 방식을 선호합니다.
+            보기 좋은 화면뿐 아니라 실제로 사용하기 쉬운 구조를 만드는 데 관심이 있습니다.
+          </p>
+        </article>
+        <article class="card">
+          <h3>핵심 역량</h3>
+          <ul class="skills">
+            <li>HTML / CSS / JavaScript</li>
+            <li>React / Vue 기초 프로젝트 구성</li>
+            <li>Git / GitHub 협업</li>
+            <li>문제 원인 파악과 개선</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">PROJECTS</p>
+        <h2>프로젝트</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <p class="project-tag">Featured</p>
+          <h3>웹 노벨 게임</h3>
+          <p>
+            스토리 기반 인터랙션을 구현한 개인 프로젝트입니다.
+            화면 전환과 사용자 흐름을 자연스럽게 연결하는 데 집중했습니다.
+          </p>
+          <a href="https://github.com/tldus4076-cell" target="_blank" rel="noreferrer">GitHub 보기</a>
+        </article>
+        <article class="project-card">
+          <p class="project-tag">Sample</p>
+          <h3>포트폴리오 사이트</h3>
+          <p>
+            GitHub Pages에 배포되는 정적 사이트입니다.
+            빠르게 열리고, 수정이 쉬우며, 작업 내용을 간단하게 정리할 수 있습니다.
+          </p>
+          <a href="#contact">내용 업데이트 예정</a>
+        </article>
+        <article class="project-card">
+          <p class="project-tag">Next</p>
+          <h3>추가 프로젝트 자리</h3>
+          <p>
+            앞으로 제작할 앱, 실험, 학습 결과를 이 영역에 계속 추가하면 됩니다.
+            프로젝트 설명과 링크만 바꿔도 포트폴리오가 점점 완성됩니다.
+          </p>
+          <a href="#about">소개 다시 보기</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">CONTACT</p>
+        <h2>연락처</h2>
+      </div>
+      <div class="contact-card">
+        <p>아래 정보는 직접 수정해서 사용하면 됩니다.</p>
+        <ul class="contact-list">
+          <li><strong>Email</strong><span>your-email@example.com</span></li>
+          <li><strong>GitHub</strong><a href="https://github.com/tldus4076-cell" target="_blank" rel="noreferrer">github.com/tldus4076-cell</a></li>
+          <li><strong>Blog</strong><span>추가 예정</span></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> tldus4076-cell. Built with GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
