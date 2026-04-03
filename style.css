@@ -101,6 +101,9 @@ a {
   padding: 48px 48px 48px 208px;
   max-width: 1000px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 48px);
 }
 
 .tab-content {
@@ -109,6 +112,33 @@ a {
 
 .tab-content.active {
   display: block !important;
+}
+
+.bottom-links {
+  margin-top: auto;
+  padding-top: 48px;
+  display: flex;
+  gap: 14px;
+}
+
+.bottom-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--muted);
+  background: rgba(88, 28, 135, 0.4);
+  border: 1px solid rgba(249, 115, 22, 0.4);
+  border-radius: 999px;
+  transition: all 0.2s ease;
+}
+
+.bottom-btn:hover {
+  color: var(--text);
+  background: rgba(249, 115, 22, 0.2);
+  border-color: var(--accent);
 }
 
 h2,
@@ -256,5 +286,15 @@ p {
 
   .content {
     padding: 24px 16px;
+  }
+
+  .bottom-links {
+    padding-top: 32px;
+    gap: 10px;
+  }
+
+  .bottom-btn {
+    padding: 8px 16px;
+    font-size: 0.8rem;
   }
 }
