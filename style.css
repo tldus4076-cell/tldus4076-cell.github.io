@@ -101,9 +101,6 @@ a {
   padding: 48px 48px 48px 208px;
   max-width: 1000px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  min-height: calc(100vh - 48px);
 }
 
 .tab-content {
@@ -115,29 +112,25 @@ a {
 }
 
 .bottom-links {
-  margin-top: auto;
-  padding-top: 48px;
+  position: fixed;
+  bottom: 24px;
+  left: 16px;
   display: flex;
-  gap: 14px;
+  gap: 16px;
+  z-index: 100;
 }
 
 .bottom-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 20px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 600;
   color: var(--muted);
-  background: rgba(88, 28, 135, 0.4);
-  border: 1px solid rgba(249, 115, 22, 0.4);
-  border-radius: 999px;
-  transition: all 0.2s ease;
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-color 0.2s ease;
 }
 
 .bottom-btn:hover {
   color: var(--text);
-  background: rgba(249, 115, 22, 0.2);
   border-color: var(--accent);
 }
 
@@ -285,16 +278,16 @@ p {
   }
 
   .content {
-    padding: 24px 16px;
+    padding: 24px 16px 80px;
   }
 
   .bottom-links {
-    padding-top: 32px;
-    gap: 10px;
+    bottom: 16px;
+    left: 16px;
+    gap: 12px;
   }
 
   .bottom-btn {
-    padding: 8px 16px;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
   }
 }
