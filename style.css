@@ -25,7 +25,7 @@ body {
   font-family: "Inter", system-ui, sans-serif;
   background:
     linear-gradient(180deg, rgba(88, 28, 135, 0.75) 0%, rgba(15, 23, 42, 0.85) 100%),
-    url('https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1920&q=85') center / cover no-repeat;
+    url('https://images.unsplash.com/photo-1572383672419-ab263-9eb50-c55bc9e1ab59?w=1920&q=85') center / cover no-repeat;
   color: var(--text);
   min-height: 100vh;
   display: flex;
@@ -75,7 +75,7 @@ a {
   padding-left: 208px;
   background:
     linear-gradient(180deg, rgba(88, 28, 135, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%),
-    url('https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1920&q=85') center / cover no-repeat;
+    url('https://images.unsplash.com/photo-1572383672419-ab263-9eb50-c55bc9e1ab59?w=1920&q=85') center / cover no-repeat;
 }
 
 .nav,
