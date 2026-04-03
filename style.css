@@ -41,8 +41,8 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  height: auto;
-  width: 140px;
+  height: 100vh;
+  width: 168px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -72,7 +72,7 @@ a {
 .hero {
   min-height: 100vh;
   padding: 24px 24px 48px;
-  padding-left: 180px;
+  padding-left: 208px;
   background:
     linear-gradient(180deg, rgba(88, 28, 135, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%),
     url('https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?w=1920&q=85') center / cover no-repeat;
@@ -87,10 +87,7 @@ a {
 }
 
 .hero-content {
-  display: flex;
-  align-items: flex-end;
   min-height: calc(100vh - 72px);
-  padding: 0 0 32px;
 }
 
 h1,
@@ -105,14 +102,15 @@ p {
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
-  max-width: 220px;
+  width: 100%;
+  margin-top: 4px;
 }
 
 .quick-link {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  min-width: 116px;
+  justify-content: flex-start;
+  width: 100%;
   padding: 8px 12px;
   font-size: 0.8rem;
   font-weight: 600;
@@ -132,7 +130,7 @@ p {
 
 .section {
   padding: 56px 24px;
-  padding-left: 180px;
+  padding-left: 208px;
 }
 
 .section-heading {
@@ -239,7 +237,7 @@ p {
 
 .footer {
   padding: 24px;
-  padding-left: 180px;
+  padding-left: 208px;
   color: var(--muted);
   text-align: center;
 }
@@ -277,7 +275,6 @@ p {
 
   .hero-content {
     min-height: calc(100vh - 140px);
-    padding-bottom: 24px;
   }
 
   .quick-links {
