@@ -53,6 +53,14 @@ a {
   border-right: 1px solid var(--line);
 }
 
+.sidebar-label {
+  margin: 0 0 24px;
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+}
+
 .quick-links {
   display: flex;
   flex-direction: column;
