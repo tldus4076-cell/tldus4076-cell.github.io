@@ -2,14 +2,14 @@
   color-scheme: light;
   --bg: #0b1020;
   --bg-soft: #141b34;
-  --panel: rgba(15, 23, 42, 0.72);
-  --line: rgba(148, 163, 184, 0.22);
-  --text: #e5eefc;
-  --muted: #a6b3cc;
-  --accent: #8b5cf6;
-  --accent-strong: #6d28d9;
-  --accent-soft: #22d3ee;
-  --shadow: 0 24px 70px rgba(2, 6, 23, 0.35);
+  --panel: rgba(88, 28, 135, 0.55);
+  --line: rgba(249, 115, 22, 0.3);
+  --text: #faf5ff;
+  --muted: #e9d5ff;
+  --accent: #f97316;
+  --accent-strong: #ea580c;
+  --accent-soft: #c084fc;
+  --shadow: 0 24px 70px rgba(88, 28, 135, 0.4);
 }
 
 * {
@@ -24,10 +24,10 @@ body {
   margin: 0;
   font-family: "Inter", system-ui, sans-serif;
   background:
-    radial-gradient(circle at top left, rgba(34, 211, 238, 0.18), transparent 30%),
-    radial-gradient(circle at top right, rgba(139, 92, 246, 0.22), transparent 26%),
-    linear-gradient(180deg, #0b1020 0%, #11182f 100%);
+    linear-gradient(180deg, rgba(88, 28, 135, 0.75) 0%, rgba(15, 23, 42, 0.85) 100%),
+    url('https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?w=1920&q=85') center / cover no-repeat;
   color: var(--text);
+  min-height: 100vh;
 }
 
 a {
@@ -38,6 +38,9 @@ a {
 .hero {
   min-height: 100vh;
   padding: 24px 24px 48px;
+  background:
+    linear-gradient(180deg, rgba(88, 28, 135, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%),
+    url('https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?w=1920&q=85') center / cover no-repeat;
 }
 
 .nav,
@@ -73,7 +76,7 @@ a {
 
 .eyebrow {
   margin: 0 0 12px;
-  color: var(--accent-soft);
+  color: var(--accent);
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.18em;
@@ -94,7 +97,7 @@ h1 {
 }
 
 h1 span {
-  color: #c4b5fd;
+  color: #fdba74;
 }
 
 .hero-text {
@@ -126,8 +129,8 @@ h1 span {
 }
 
 .button.primary {
-  background: linear-gradient(135deg, var(--accent), var(--accent-soft));
-  color: #0b1020;
+  background: linear-gradient(135deg, var(--accent), #f97316);
+  color: #fff;
 }
 
 .button.secondary {
@@ -185,7 +188,7 @@ h1 span {
 }
 
 .project-tag {
-  color: #c4b5fd;
+  color: #fdba74;
   font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.12em;
