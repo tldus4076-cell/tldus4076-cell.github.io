@@ -24,8 +24,8 @@ body {
   margin: 0;
   font-family: "Inter", system-ui, sans-serif;
   background:
-    linear-gradient(180deg, rgba(20, 30, 24, 0.78) 0%, rgba(8, 14, 10, 0.9) 100%),
-    url('https://images.unsplash.com/photo-1448375240586-882707db888b?w=1920&q=85') center / cover no-repeat fixed;
+    linear-gradient(180deg, rgba(14, 22, 50, 0.72) 0%, rgba(6, 10, 24, 0.9) 100%),
+    url('https://images.unsplash.com/photo-1515238152791-8216bfdf89a7?w=1920&q=85') center / cover no-repeat fixed;
   color: var(--text);
   min-height: 100vh;
   display: flex;
