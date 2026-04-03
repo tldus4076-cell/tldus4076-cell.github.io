@@ -10,7 +10,11 @@ document.querySelectorAll('.quick-link').forEach(function(link) {
 
     document.querySelectorAll('.tab-content').forEach(function(content) {
       content.classList.remove('active');
+      content.hidden = true;
     });
-    document.getElementById(tabId).classList.add('active');
+
+    var target = document.getElementById(tabId);
+    target.hidden = false;
+    target.classList.add('active');
   });
 });
