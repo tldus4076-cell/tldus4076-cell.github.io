@@ -14,10 +14,3 @@ document.querySelectorAll('.quick-link').forEach(function(link) {
     document.getElementById(tabId).classList.add('active');
   });
 });
-
-document.addEventListener('DOMContentLoaded', function() {
-  var firstTab = document.querySelector('.quick-link[data-tab="about"]');
-  if (firstTab) {
-    firstTab.click();
-  }
-});
