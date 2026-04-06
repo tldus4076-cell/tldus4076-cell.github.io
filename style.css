@@ -73,6 +73,7 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
+  gap: 8px;
   width: 100%;
   padding: 8px 12px;
   font-size: 0.8rem;
@@ -82,6 +83,10 @@ a {
   border: 1px solid rgba(249, 115, 22, 0.35);
   border-radius: 14px;
   transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.nav-icon {
+  font-size: 0.9rem;
 }
 
 .quick-link:hover {
@@ -121,6 +126,9 @@ a {
 }
 
 .bottom-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-size: 0.8rem;
   font-weight: 600;
   color: var(--muted);
@@ -132,6 +140,10 @@ a {
 .bottom-btn:hover {
   color: var(--text);
   border-color: var(--accent);
+}
+
+.btn-icon {
+  flex-shrink: 0;
 }
 
 h2,
