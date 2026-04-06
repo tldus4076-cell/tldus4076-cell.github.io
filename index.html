@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio | tldus4076-cell</title>
-  <meta name="description" content="tldus4076-cell portfolio website">
+  <title>Portfolio | Game Developer</title>
+  <meta name="description" content="Game Developer Portfolio - Unity, UI/UX Design">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -16,67 +16,189 @@
     <div class="quick-links">
       <a class="quick-link" data-tab="about"><span class="nav-icon">👤</span>소개</a>
       <a class="quick-link" data-tab="projects"><span class="nav-icon">🎮</span>프로젝트</a>
+      <a class="quick-link" data-tab="skills"><span class="nav-icon">💡</span>기술스택</a>
     </div>
   </nav>
 
   <main class="content">
     <section class="tab-content" id="about" hidden>
       <div class="section-heading">
-        <h2>소개</h2>
+        <h2>About Me</h2>
       </div>
-      <div class="about-grid">
-        <article class="card">
-          <h3>저는 이런 사람입니다</h3>
-          <p>
-            게임 개발과 디자인에 관심이 많은 개발자입니다.
-            Unity6와 웹 기술을 활용하여 다양한 프로젝트를 제작하고 있습니다.
-            끊임없이 학습하고 새로운 도전을 즐기는 것이 목표입니다.
+
+      <div class="profile-section">
+        <div class="profile-image">
+          <div class="profile-image-placeholder">
+            <span>Photo</span>
+          </div>
+        </div>
+        <div class="profile-info">
+          <h3 class="profile-title">게임 개발자</h3>
+          <p class="profile-desc">
+            Unity6 기반 게임 개발과 UI/UX 디자인에 관심이 많은 개발자입니다.
+            오락실풍의 캐주얼 게임부터 인터랙티브 웹 게임까지 다양한 프로젝트를 제작하고 있습니다.
+            플레이어 경험을 중시하는 게임设计与開発를 추구합니다.
           </p>
-        </article>
-        <article class="card">
-          <h3>핵심 역량</h3>
-          <ul class="skills">
-            <li>게임개발</li>
-            <li>UI/UX</li>
-            <li>홈페이지 만들기</li>
-            <li>웹디자인</li>
-          </ul>
-        </article>
+        </div>
+      </div>
+
+      <div class="career-section">
+        <div class="career-card">
+          <h4>🎯 목표</h4>
+          <p>플레이어에게 재미와 감동을 주는 게임을 만드는 개발자</p>
+        </div>
+        <div class="career-card">
+          <h4>🌟 비전</h4>
+          <p>항상 학습하고 성장하며, 새로운 도전을 즐기는 게임 크리에이터</p>
+        </div>
       </div>
     </section>
 
     <section class="tab-content" id="projects" hidden>
       <div class="section-heading">
-        <h2>프로젝트</h2>
+        <h2>Projects</h2>
       </div>
+
       <div class="project-grid">
         <article class="project-card">
-          <p class="project-tag">Game</p>
+          <div class="project-header">
+            <span class="project-tag">Game</span>
+            <span class="project-status">Completed</span>
+          </div>
+          <h3>Bubble Puzzle</h3>
+          <p class="project-description">
+            버블을 조준하여 같은 색상 3개 이상 연결하면 터져 사라지는 오락실 스타일의 캐주얼 퍼즐 게임입니다.
+            Unity6를 활용하여 제작되었으며, 레벨 디자인과 사용자 경험을 중시하여 설계했습니다.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Unity</span>
+            <span class="tech-tag">C#</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/tldus4076-cell/puzzle" target="_blank" rel="noreferrer" class="project-link">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Game</span>
+            <span class="project-status planning">Planning</span>
+          </div>
           <h3>Puzzle 2</h3>
-          <p>
-            Unity6로 제작한 퍼즐 게임입니다.
-           逻辑적 사고력과 문제 해결 능력을 기를 수 있는 게임입니다.
+          <p class="project-description">
+            시각노멀, 보스맵, 농장게임 등 다양한 장르의 게임을 제작할 계획입니다.
+            현재 기획 단계로, 플레이어에게 새로운 경험을 제공하는 게임을 목표로 하고 있습니다.
           </p>
-          <a href="https://github.com/tldus4076-cell/puzzle2" target="_blank" rel="noreferrer">GitHub 보기</a>
+          <div class="project-tech">
+            <span class="tech-tag">Unity</span>
+            <span class="tech-tag">Planning</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/tldus4076-cell/puzzle2" target="_blank" rel="noreferrer" class="project-link">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub
+            </a>
+          </div>
         </article>
+
         <article class="project-card">
-          <p class="project-tag">Game</p>
-          <h3>Puzzle</h3>
-          <p>
-            Unity6로 제작한 인터랙티브 웹 게임입니다.
-            스토리텔링과 사용자 경험을 중시로 설계했습니다.
+          <div class="project-header">
+            <span class="project-tag">Design</span>
+            <span class="project-status planning">Planning</span>
+          </div>
+          <h3>Game UI/UX Design</h3>
+          <p class="project-description">
+            게임의用户体验를 중시하는 UI/UX 디자인을 작업하고 있습니다.
+            직관적이고 보기 좋은 인터페이스를 통해 플레이어에게 편안한 게임 경험을 제공하는 것을 목표로 합니다.
           </p>
-          <a href="https://github.com/tldus4076-cell/puzzle" target="_blank" rel="noreferrer">GitHub 보기</a>
+          <div class="project-tech">
+            <span class="tech-tag">Photoshop</span>
+            <span class="tech-tag">UI Design</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/tldus4076-cell/tldus4076-cell.github.io" target="_blank" rel="noreferrer" class="project-link">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              GitHub
+            </a>
+          </div>
         </article>
-        <article class="project-card">
-          <p class="project-tag">Design</p>
-          <h3>UI/UX</h3>
-          <p>
-            게임 프로젝트의用户体验를 고려한 UI/UX 디자인 작업입니다.
-            직관적이고 보기 좋은 인터페이스를 목표としています.
-          </p>
-          <a href="https://github.com/tldus4076-cell/tldus4076-cell.github.io" target="_blank" rel="noreferrer">GitHub 보기</a>
-        </article>
+      </div>
+    </section>
+
+    <section class="tab-content" id="skills" hidden>
+      <div class="section-heading">
+        <h2>Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><span class="skill-icon">🎮</span>Game Development</h3>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Unity</span>
+              <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 70%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">C#</span>
+              <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 65%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3><span class="skill-icon">🎨</span>Design</h3>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">Photoshop</span>
+              <span class="skill-level">Intermediate</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 60%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">UI/UX Design</span>
+              <span class="skill-level">Learning</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 50%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3><span class="skill-icon">🌐</span>Web</h3>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">HTML/CSS</span>
+              <span class="skill-level">Basic</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 40%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-level">Basic</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 35%"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
