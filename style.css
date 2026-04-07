@@ -2,7 +2,7 @@
   color-scheme: dark;
   --bg: #0b0b14;
   --bg-soft: #12121f;
-  --panel: rgba(30, 20, 50, 0.7);
+  --panel: rgba(30, 20, 50, 0.45);
   --panel-hover: rgba(45, 25, 70, 0.8);
   --line: rgba(139, 92, 246, 0.25);
   --text: #f0e6ff;
@@ -25,7 +25,7 @@ body {
   margin: 0;
   font-family: "Inter", system-ui, sans-serif;
   background:
-    linear-gradient(135deg, rgba(15, 10, 30, 0.95) 0%, rgba(20, 12, 40, 0.95) 100%),
+    linear-gradient(135deg, rgba(15, 10, 30, 0.5) 0%, rgba(20, 12, 40, 0.55) 100%),
     url('https://images.unsplash.com/photo-1522383225653-ed111181a951?w=1920&q=85') center / cover no-repeat fixed;
   color: var(--text);
   min-height: 100vh;
@@ -48,7 +48,7 @@ a {
   align-items: flex-start;
   padding: 28px 20px;
   z-index: 100;
-  background: rgba(15, 10, 25, 0.85);
+  background: rgba(15, 10, 25, 0.5);
   backdrop-filter: blur(12px);
   border-right: 1px solid var(--line);
 }
