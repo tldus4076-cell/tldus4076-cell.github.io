@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>소개 | tldus4076-cell</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <main class="content" style="padding-left: 48px;">
+    <section class="tab-content active">
+      <div class="section-heading">
+        <h2>소개</h2>
+      </div>
+      <div class="about-grid">
+        <article class="card">
+          <h3>사진</h3>
+          <img src="images/profile.jpg" alt="프로필 사진" style="width: 100%; max-width: 260px; border-radius: 20px; border: 1px solid var(--line); display: block;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+          <p style="display: none;">
+            사진을 넣으려면 이 폴더에 <strong>images/profile.jpg</strong> 파일을 추가하면 됩니다.
+          </p>
+        </article>
+        <article class="card">
+          <h3>나의 소개글</h3>
+          <p>
+            안녕하세요. 게임 개발과 디자인에 관심이 많은 개발자입니다.
+            Unity6, 웹 제작, 앱개발, AI활용 등을 배우며 하나씩 작업물을 만들어가고 있습니다.
+          </p>
+          <p>
+            이곳에는 자기소개, 관심 분야, 목표, 공부한 내용, 작업한 프로젝트 설명을 자유롭게 적으면 됩니다.
+          </p>
+        </article>
+      </div>
+      <div class="about-grid" style="margin-top: 20px;">
+        <article class="card">
+          <h3>수정 방법</h3>
+          <ul class="skills">
+            <li>소개글 수정: ABOUT/index.html</li>
+            <li>사진 추가: ABOUT/images/profile.jpg</li>
+            <li>사진 이름은 profile.jpg로 맞추기</li>
+            <li>수정 후 git add, commit, push</li>
+          </ul>
+        </article>
+      </div>
+      <div class="bottom-links" style="position: static; margin-top: 28px;">
+        <a class="bottom-btn" href="../index.html">메인으로 돌아가기</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
