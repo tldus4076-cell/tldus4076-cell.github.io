@@ -211,6 +211,150 @@ p {
   text-transform: uppercase;
 }
 
+.work-page {
+  max-width: 1200px;
+}
+
+.work-hero {
+  margin-bottom: 28px;
+  padding: 34px 28px;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background: rgba(9, 13, 30, 0.72);
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.work-hero h2 {
+  margin: 8px 0 10px;
+  font-size: 2rem;
+  letter-spacing: 0.04em;
+}
+
+.work-hero p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
+.portfolio-hero {
+  background: rgba(88, 28, 135, 0.62);
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.work-card,
+.portfolio-item {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(250, 245, 255, 0.92);
+  color: #241330;
+  box-shadow: var(--shadow);
+}
+
+.work-thumb,
+.portfolio-thumb {
+  min-height: 150px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, rgba(88, 28, 135, 0.26), rgba(249, 115, 22, 0.2));
+  border-bottom: 1px solid rgba(88, 28, 135, 0.18);
+}
+
+.work-thumb span,
+.portfolio-thumb span {
+  color: rgba(36, 19, 48, 0.55);
+  font-weight: 800;
+}
+
+.work-body,
+.portfolio-item {
+  padding: 20px;
+}
+
+.work-body h3,
+.portfolio-item h3 {
+  margin-bottom: 10px;
+  color: #241330;
+}
+
+.work-body p,
+.portfolio-item p {
+  color: #5b4b68;
+  line-height: 1.65;
+}
+
+.work-info {
+  margin: 16px 0 0;
+  display: grid;
+  gap: 8px;
+}
+
+.work-info div {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 10px;
+}
+
+.work-info dt {
+  color: var(--accent-strong);
+  font-weight: 800;
+}
+
+.work-info dd {
+  margin: 0;
+  color: #5b4b68;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.portfolio-item {
+  padding: 0;
+}
+
+.portfolio-item h3,
+.portfolio-item p,
+.portfolio-item .work-tags,
+.portfolio-item .work-date {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.portfolio-item h3 {
+  margin-top: 18px;
+}
+
+.work-tags {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+}
+
+.work-tags li {
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: rgba(88, 28, 135, 0.12);
+  color: #5b21b6;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.work-date {
+  padding-bottom: 18px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
 .skills,
 .contact-list {
   margin: 0;
@@ -262,7 +406,9 @@ p {
 
 @media (max-width: 900px) {
   .about-grid,
-  .project-grid {
+  .project-grid,
+  .work-grid,
+  .portfolio-grid {
     grid-template-columns: 1fr;
   }
 }
