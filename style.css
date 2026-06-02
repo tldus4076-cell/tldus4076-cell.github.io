@@ -445,6 +445,11 @@ p {
   font-weight: 700;
 }
 
+.empty-state {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
 .skills,
 .contact-list {
   margin: 0;
