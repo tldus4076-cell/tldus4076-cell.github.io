@@ -10,43 +10,64 @@
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-  <main class="content" style="padding-left: 48px;">
+  <main class="content work-page" style="padding-left: 48px;">
     <section class="tab-content active">
-      <div class="section-heading">
-        <h2>소개</h2>
+      <div class="work-hero about-hero">
+        <p class="project-tag">ABOUT</p>
+        <h2>나의 소개</h2>
+        <p>사진, 소개글, 스킬, 목표를 한눈에 보여주는 공간입니다.</p>
       </div>
-      <div class="about-grid">
-        <article class="card">
-          <h3>사진</h3>
-          <img src="images/profile.jpg" alt="프로필 사진" style="width: 100%; max-width: 260px; border-radius: 20px; border: 1px solid var(--line); display: block;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-          <p style="display: none;">
-            사진을 넣으려면 이 폴더에 <strong>images/profile.jpg</strong> 파일을 추가하면 됩니다.
-          </p>
-        </article>
-        <article class="card">
-          <h3>나의 소개글</h3>
+
+      <div class="profile-layout">
+        <article class="profile-copy">
+          <p class="project-tag">Profile</p>
+          <h3>안녕하세요, 게임 개발과 디자인을 공부하고 있습니다.</h3>
           <p>
-            안녕하세요. 게임 개발과 디자인에 관심이 많은 개발자입니다.
             Unity6, 웹 제작, 앱개발, AI활용 등을 배우며 하나씩 작업물을 만들어가고 있습니다.
+            사용자가 보기 편하고 재미있게 사용할 수 있는 결과물을 만드는 것이 목표입니다.
           </p>
           <p>
             이곳에는 자기소개, 관심 분야, 목표, 공부한 내용, 작업한 프로젝트 설명을 자유롭게 적으면 됩니다.
           </p>
         </article>
+
+        <article class="profile-photo-card">
+          <img src="images/profile.jpg" alt="프로필 사진" onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';">
+          <div class="photo-placeholder">
+            <span>사진 자리</span>
+          </div>
+        </article>
       </div>
-      <div class="about-grid" style="margin-top: 20px;">
+
+      <div class="section-heading" style="margin-top: 34px;">
+        <h2>SKILLS</h2>
+      </div>
+      <div class="skill-chip-grid">
+        <span>게임개발</span>
+        <span>UI/UX</span>
+        <span>홈페이지 만들기</span>
+        <span>웹디자인</span>
+        <span>앱개발</span>
+        <span>AI활용</span>
+        <span>CSS</span>
+        <span>DNS 활용</span>
+      </div>
+
+      <div class="section-heading" style="margin-top: 34px;">
+        <h2>CAREER / GOAL</h2>
+      </div>
+      <div class="about-timeline">
         <article class="card">
-          <h3>핵심 역량</h3>
-          <ul class="skills">
-            <li>게임개발</li>
-            <li>UI/UX</li>
-            <li>홈페이지 만들기</li>
-            <li>웹디자인</li>
-            <li>앱개발</li>
-            <li>AI활용</li>
-            <li>CSS</li>
-            <li>DNS 활용</li>
-          </ul>
+          <h3>관심 분야</h3>
+          <p>게임 개발, 앱개발, 웹페이지 제작, UI/UX 디자인, AI활용</p>
+        </article>
+        <article class="card">
+          <h3>목표</h3>
+          <p>작업물을 꾸준히 만들고 정리해서 나만의 포트폴리오를 완성하는 것</p>
+        </article>
+        <article class="card">
+          <h3>작업 방향</h3>
+          <p>새로운 작업을 만들 때마다 프로젝트와 portfolio 폴더에 기록하기</p>
         </article>
       </div>
       <div class="bottom-links" style="position: static; margin-top: 28px;">

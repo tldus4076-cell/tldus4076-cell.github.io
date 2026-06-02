@@ -240,6 +240,88 @@ p {
   background: rgba(88, 28, 135, 0.62);
 }
 
+.about-hero {
+  background: linear-gradient(135deg, rgba(9, 13, 30, 0.78), rgba(88, 28, 135, 0.54));
+}
+
+.profile-layout {
+  display: grid;
+  grid-template-columns: 1.1fr 0.8fr;
+  gap: 28px;
+  align-items: stretch;
+}
+
+.profile-copy,
+.profile-photo-card {
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: rgba(250, 245, 255, 0.92);
+  color: #241330;
+  box-shadow: var(--shadow);
+}
+
+.profile-copy {
+  padding: 32px;
+}
+
+.profile-copy h3 {
+  margin: 10px 0 18px;
+  font-size: 1.6rem;
+  color: #241330;
+}
+
+.profile-copy p {
+  color: #5b4b68;
+  line-height: 1.8;
+}
+
+.profile-photo-card {
+  overflow: hidden;
+  min-height: 360px;
+  display: grid;
+  place-items: center;
+}
+
+.profile-photo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.photo-placeholder {
+  width: 100%;
+  height: 100%;
+  min-height: 360px;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, rgba(88, 28, 135, 0.18), rgba(249, 115, 22, 0.14));
+  color: rgba(36, 19, 48, 0.55);
+  font-weight: 800;
+}
+
+.skill-chip-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.skill-chip-grid span {
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: rgba(250, 245, 255, 0.9);
+  color: #5b21b6;
+  font-weight: 800;
+  text-align: center;
+}
+
+.about-timeline {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
 .work-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -408,7 +490,10 @@ p {
   .about-grid,
   .project-grid,
   .work-grid,
-  .portfolio-grid {
+  .portfolio-grid,
+  .profile-layout,
+  .skill-chip-grid,
+  .about-timeline {
     grid-template-columns: 1fr;
   }
 }
