@@ -1,7 +1,12 @@
 document.querySelectorAll('.quick-link').forEach(function(link) {
   link.addEventListener('click', function(e) {
-    e.preventDefault();
     var tabId = this.getAttribute('data-tab');
+
+    if (!tabId) {
+      return;
+    }
+
+    e.preventDefault();
 
     document.querySelectorAll('.quick-link').forEach(function(l) {
       l.classList.remove('active');
