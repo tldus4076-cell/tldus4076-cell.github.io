@@ -120,10 +120,10 @@ a {
   position: fixed;
   bottom: 16px;
   left: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 6px;
+  display: grid;
+  grid-template-rows: auto auto;
+  justify-items: start;
+  row-gap: 6px;
   z-index: 100;
 }
 
