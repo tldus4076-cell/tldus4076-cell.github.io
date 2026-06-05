@@ -94,7 +94,7 @@
 
   <h1> AI 협업 게임 서버 시스템</h1>
   <p style="color:#94a3b8; margin-bottom:20px;">미니 RTS 게임의 서버 + 운영 대시보드를 구현한 프로젝트<br>
-     AI(Claude)와 협업하여 이벤트 기반 아키텍처, O(1) 캐시, 실시간 대시보드를 설계·구현했습니다.
+     AI와 협업하여 이벤트 기반 아키텍처, O(1) 캐시, 실시간 대시보드를 설계·구현했습니다.
   </p>
 
   <div>
@@ -144,19 +144,19 @@
     └── (아키텍처 다이어그램 등)</code></pre>
 
   <h3>src/ 코드 파일</h3>
-  <a href="https://github.com/tldus4076-cell/tldus4076-cell.github.io/tree/main/portfolio/tree-node-product-engineer/src" class="code-link" target="_blank">
+  <a href="https://github.com/tldus4076-cell/tldus4076-cell.github.io/blob/main/portfolio/tree-node-product-engineer/src/server.py" class="code-link" target="_blank">
     <strong>server.py</strong>
     <span class="desc">WebSocket 기반 게임 서버 핵심. 이벤트 버스 + 캐시 연동</span>
   </a>
-  <a href="https://github.com/tldus4076-cell/tldus4076-cell.github.io/tree/main/portfolio/tree-node-product-engineer/src" class="code-link" target="_blank">
+  <a href="https://github.com/tldus4076-cell/tldus4076-cell.github.io/blob/main/portfolio/tree-node-product-engineer/src/cache_system.py" class="code-link" target="_blank">
     <strong>cache_system.py</strong>
     <span class="desc">O(1) 해시 테이블 캐시. TTL + hit/miss 통계</span>
   </a>
-  <a href="https://github.com/tldus4076-cell/tldus4076-cell.github.io/tree/main/portfolio/tree-node-product-engineer/src" class="code-link" target="_blank">
+  <a href="https://github.com/tldus4076-cell/tldus4076-cell.github.io/blob/main/portfolio/tree-node-product-engineer/src/event_bus.py" class="code-link" target="_blank">
     <strong>event_bus.py</strong>
     <span class="desc">pub/sub 이벤트 버스. 도메인 간 느슨한 결합</span>
   </a>
-  <a href="https://github.com/tldus4076-cell/tldus4076-cell.github.io/tree/main/portfolio/tree-node-product-engineer/src" class="code-link" target="_blank">
+  <a href="https://github.com/tldus4076-cell/tldus4076-cell.github.io/blob/main/portfolio/tree-node-product-engineer/src/ai_dashboard.py" class="code-link" target="_blank">
     <strong>ai_dashboard.py</strong>
     <span class="desc">실시간 운영 대시보드. AI 의사결정 기록</span>
   </a>
