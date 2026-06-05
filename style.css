@@ -127,6 +127,11 @@ a {
   z-index: 100;
 }
 
+.bottom-link-row {
+  display: flex;
+  gap: 16px;
+}
+
 .bottom-btn {
   display: inline-flex;
   align-items: center;
