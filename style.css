@@ -382,6 +382,16 @@ p {
   border-color: rgba(88, 28, 135, 0.22);
 }
 
+.work-actions a.file-link::before,
+.work-actions a.file-link::after {
+  content: none !important;
+  display: none !important;
+}
+
+.work-actions a.file-link span {
+  display: inline-block;
+}
+
 .portfolio-actions {
   margin: 0 18px 18px;
 }
