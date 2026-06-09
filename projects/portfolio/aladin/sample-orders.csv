@@ -1,0 +1,6 @@
+﻿order_id,partner,quantity,amount,stock,delivery_status
+B2B-2401,서울도서관,42,756000,60,normal
+B2B-2402,경기교육몰,120,2160000,95,normal
+B2B-2403,북스테이션,18,324000,20,address-check
+B2B-2404,문구플러스,55,990000,0,normal
+B2B-2405,기업복지몰,33,594000,40,normal
